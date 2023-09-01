@@ -1,4 +1,3 @@
-import numpy as np
 import itertools
 from math import factorial
 from itertools import chain, combinations
