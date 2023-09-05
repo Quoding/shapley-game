@@ -28,9 +28,7 @@ class ShapleyGame:
 
     def compute_solution(self):
         if self.num_players > 5:
-            logging.warning(
-                "Number of players is more than 5, this may take some time..."
-            )
+            logging.info("Number of players is more than 5, this may take some time...")
 
         # Create all permutations
         n_fact = factorial(self.num_players)

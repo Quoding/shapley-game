@@ -1,8 +1,4 @@
 import unittest
-import sys
-
-sys.path.append("../src/")
-
 from shapley_game.game import ShapleyGame, powerset
 
 
