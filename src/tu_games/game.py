@@ -24,6 +24,8 @@ class ShapleyGame:
         if self.coal_scores is None:
             self.powerset = powerset(list(range(self.num_players)))
             self.coal_scores = self.generate_random_scores()
+            # By convention, value of empty coalition is 0
+            self.coal_scores[frozenset()] = 0
         else:
             self.powerset = [tuple(k) for k in self.coal_scores.keys()]
 
