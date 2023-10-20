@@ -4,4 +4,4 @@ Basic implementation of a transferrable utility (TU) game and compute its Shaple
 
 ## Installation
 
-`pip install tu-games`
+`pip install shapley-game`
