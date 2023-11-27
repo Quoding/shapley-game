@@ -54,7 +54,7 @@ class ShapleyGame:
             self.solution[player] = phi
 
     def generate_random_scores(self):
-        scores = [random.randint(0, 10) for i in range(len(self.powerset))]
+        scores = [random.uniform(0, 10) for i in range(len(self.powerset))]
 
         # Make sure empty set has value of 0
         scores[0] = 0
